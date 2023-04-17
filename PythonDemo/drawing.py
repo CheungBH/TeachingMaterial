@@ -177,7 +177,7 @@ def draw_flower():
 
 print("----- Welcome to the drawing system ----")
 while True:
-    a = input("---- Please select what you want to draw: 1 for python, 2 for flowers\nYour selection is: ")
+    a = input("---- Please select what you want to draw:\n (1 for python, 2 for flowers)\nYour selection is: ")
     try:
         a = eval(a)
         if a == 1:
